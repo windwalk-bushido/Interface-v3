@@ -1,0 +1,18 @@
+# humanstxt.org/
+
+
+# LANGUAGES AND FRAMEWORKS
+  HTML5, Sass, JavaScript, Python, Flask.
+
+# DEPLOYMENT
+  Heroku
+
+# TOOLS AND SOFTWARES
+  VS Code, Firefox, Chromium, Linux, Alacritty.
+
+# WEBSITES FOR ASSETS
+  Flaticon, Google Fonts, TailwindCSS.
+
+# ABOUT ME
+  I call myself Windwalk.
+  https://github.com/windwalk-bushido

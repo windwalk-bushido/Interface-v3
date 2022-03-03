@@ -1,0 +1,763 @@
+{
+  "frontend": {
+    "0": {
+      "name": "Hero Patterns",
+      "url": "https://heropatterns.com/"
+    },
+
+    "1": {
+      "name": "Hero Icons",
+      "url": "https://heroicons.com/"
+    },
+
+    "2": {
+      "name": "Font Awesome",
+      "url": "https://fontawesome.com/icons?d=gallery&p=2&q=windwalk"
+    },
+
+    "3": {
+      "name": "Flaticon Icons",
+      "url": "https://www.flaticon.com/search?word=box&type=icon&license=selection&order_by=4"
+    },
+
+    "4": {
+      "name": "Coolors",
+      "url": "https://coolors.co/000000-404040-808080-c0c0c0-ffffff"
+    },
+
+    "5": {
+      "name": "Contrast Ratio",
+      "url": "https://contrast-ratio.com/#black-on-white"
+    },
+
+    "6": {
+      "name": "Color Converter",
+      "url": "https://convertacolor.com/"
+    },
+
+    "7": {
+      "name": "Color Wheel",
+      "url": "https://www.canva.com/colors/color-wheel/"
+    },
+
+    "8": {
+      "name": "CSS Gradient",
+      "url": "https://cssgradient.io/"
+    },
+
+    "9": {
+      "name": "CSS Shadow",
+      "url": "https://cssgenerator.org/box-shadow-css-generator.html"
+    },
+
+    "10": {
+      "name": "CSS Animation",
+      "url": "https://animate.style/"
+    },
+
+    "11": {
+      "name": "Google Fonts",
+      "url": "https://fonts.google.com/"
+    },
+
+    "12": {
+      "name": "Dribble",
+      "url": "https://dribbble.com/search"
+    },
+
+    "13": {
+      "name": "Unsplash",
+      "url": "https://unsplash.com/"
+    },
+
+    "14": {
+      "name": "Tiny JPG",
+      "url": "https://tinyjpg.com/"
+    },
+
+    "15": {
+      "name": "Tiny PNG",
+      "url": "https://tinypng.com/"
+    },
+
+    "16": {
+      "name": "JPG to Webp",
+      "url": "https://convertio.co/jpg-webp/"
+    },
+
+    "17": {
+      "name": "Axios",
+      "url": "https://axios-http.com/docs/intro"
+    },
+
+    "18": {
+      "name": "JSON Web Token",
+      "url": "https://jwt.io/introduction"
+    },
+
+    "19": {
+      "name": "OAuth",
+      "url": "https://www.oauth.com/"
+    },
+
+    "20": {
+      "name": "ImmutableJS",
+      "url": "https://immutable-js.com/"
+    },
+
+    "21": {
+      "name": "MomentJS",
+      "url": "https://momentjs.com/"
+    },
+
+    "22": {
+      "name": "MarkedJS",
+      "url": "https://marked.js.org/"
+    },
+
+    "23": {
+      "name": "HammerJS",
+      "url": "https://hammerjs.github.io/"
+    },
+
+    "24": {
+      "name": "PassportJS",
+      "url": "https://www.passportjs.org/"
+    },
+
+    "25": {
+      "name": "FlickityJS",
+      "url": "https://flickity.metafizzy.co/"
+    },
+
+    "26": {
+      "name": "JAM Stack",
+      "url": "https://jamstack.org/"
+    }
+  },
+
+  "backend": {
+    "0": {
+      "name": "Python Cheat Sheet",
+      "url": "https://www.pythoncheatsheet.org/"
+    },
+
+    "1": {
+      "name": "Curated List of Python's stuff",
+      "url": "https://github.com/vinta/awesome-python"
+    },
+
+    "2": {
+      "name": "Pip",
+      "url": "https://pypi.org/project/pip/"
+    },
+
+    "3": {
+      "name": "Flask",
+      "url": "https://flask.palletsprojects.com/en/2.0.x/"
+    },
+
+    "4": {
+      "name": "Jinja2",
+      "url": "https://jinja.palletsprojects.com/en/3.0.x/"
+    },
+
+    "5": {
+      "name": "Django",
+      "url": "https://www.djangoproject.com/start/"
+    },
+
+    "6": {
+      "name": "Go",
+      "url": "https://go.dev/doc/"
+    },
+
+    "7": {
+      "name": "Fiber",
+      "url": "https://docs.gofiber.io/"
+    },
+
+    "8": {
+      "name": "MongoDB",
+      "url": "https://www.mongodb.com/"
+    },
+
+    "9": {
+      "name": "Postgres",
+      "url": "https://www.postgresql.org/docs/"
+    },
+
+    "10": {
+      "name": "Supabase",
+      "url": "https://supabase.com/"
+    },
+
+    "11": {
+      "name": "Strapi",
+      "url": "https://docs.strapi.io/developer-docs/latest/getting-started/quick-start.html#_1-install-strapi-and-create-a-new-project"
+    },
+
+    "12": {
+      "name": "Forestry",
+      "url": "https://forestry.io/"
+    },
+
+    "13": {
+      "name": "Wordpress",
+      "url": "https://wordpress.com/"
+    },
+
+    "14": {
+      "name": "Nginx",
+      "url": "https://nginx.org/en/"
+    },
+
+    "15": {
+      "name": "Apache",
+      "url": "https://apache.org/"
+    },
+
+    "16": {
+      "name": "Microsoft Azure",
+      "url": "https://azure.microsoft.com/en-us/"
+    },
+
+    "17": {
+      "name": "Google Cloud Platform",
+      "url": "https://console.cloud.google.com/"
+    },
+
+    "18": {
+      "name": "Amazon Web Services",
+      "url": "https://aws.amazon.com/"
+    },
+
+    "19": {
+      "name": "Docker's Hub",
+      "url": "https://hub.docker.com/"
+    },
+
+    "20": {
+      "name": "Free APIs List",
+      "url": "https://free-apis.github.io/#/browse"
+    },
+
+    "21": {
+      "name": "OWASP",
+      "url": "https://owasp.org/"
+    },
+
+    "22": {
+      "name": "Reverse Shell Cheat Sheet",
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md#nodejs"
+    },
+
+    "23": {
+      "name": "TryHackMe",
+      "url": "https://tryhackme.com/p/windwalk"
+    },
+
+    "24": {
+      "name": "Exploit DB",
+      "url": "https://www.exploit-db.com/"
+    },
+
+    "25": {
+      "name": "Crack Station",
+      "url": "https://crackstation.net/"
+    },
+
+    "26": {
+      "name": "HashCat",
+      "url": "https://hashcat.net/wiki/doku.php?id=example_hashes"
+    },
+
+    "27": {
+      "name": "Hash Identifier",
+      "url": "https://hashes.com/en/tools/hash_identifier"
+    },
+
+    "28": {
+      "name": "SecList Toolbox",
+      "url": "https://github.com/danielmiessler/SecLists"
+    }
+  },
+
+  "documentation": {
+    "0": {
+      "name": "Wappalyzer",
+      "url": "https://www.wappalyzer.com/"
+    },
+
+    "1": {
+      "name": "SoloLearn",
+      "url": "https://www.sololearn.com/profile/5743799"
+    },
+
+    "2": {
+      "name": "Free Code Camp",
+      "url": "https://www.freecodecamp.org/learn"
+    },
+
+    "3": {
+      "name": "The Odin Project",
+      "url": "https://www.theodinproject.com/paths"
+    },
+
+    "4": {
+      "name": "W3Schools",
+      "url": "https://www.w3schools.com/howto/howto_css_modals.asp"
+    },
+
+    "5": {
+      "name": "Mozilla Developer Network",
+      "url": "https://developer.mozilla.org/en-US/"
+    },
+
+    "6": {
+      "name": "Fireship",
+      "url": "https://fireship.io/"
+    },
+
+    "7": {
+      "name": "Learn X in Y minutes",
+      "url": "https://learnxinyminutes.com/docs/javascript/"
+    },
+
+    "8": {
+      "name": "30 Seconds of Code",
+      "url": "https://www.30secondsofcode.org"
+    },
+
+    "9": {
+      "name": "W3C Web Accessibility",
+      "url": "https://www.w3.org/WAI/fundamentals/accessibility-intro/"
+    },
+
+    "10": {
+      "name": "HTML5 UP!2",
+      "url": "https://html5up.net/"
+    },
+
+    "11": {
+      "name": "Semantic HTML",
+      "url": "https://www.w3schools.com/html/html5_semantic_elements.asp"
+    },
+
+    "12": {
+      "name": "TypeScript Cheat Sheet",
+      "url": "https://www.typescriptlang.org/cheatsheets"
+    },
+
+    "13": {
+      "name": "JavaScript Cheat Sheet",
+      "url": "https://overapi.com/javascript"
+    },
+
+    "14": {
+      "name": "Vue 3 Docs",
+      "url": "https://vuejs.org/guide/introduction.html"
+    },
+
+    "15": {
+      "name": "Vue Router",
+      "url": "https://router.vuejs.org/guide/"
+    },
+
+    "16": {
+      "name": "Vue Pinia",
+      "url": "https://pinia.vuejs.org/"
+    },
+
+    "17": {
+      "name": "Vite",
+      "url": "https://vitejs.dev/guide/"
+    },
+
+    "18": {
+      "name": "NPM",
+      "url": "https://www.npmjs.com/"
+    },
+
+    "19": {
+      "name": "CSS Tricks",
+      "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background"
+    },
+
+    "20": {
+      "name": "TailwindCSS",
+      "url": "https://tailwindcss.com/docs/installation"
+    },
+
+    "21": {
+      "name": "Sass",
+      "url": "https://sass-lang.com/documentation"
+    },
+
+    "22": {
+      "name": "Daisy UI",
+      "url": "https://daisyui.com/components/"
+    },
+
+    "23": {
+      "name": "Vuetify",
+      "url": "https://vuetifyjs.com/en/getting-started/installation/"
+    },
+
+    "24": {
+      "name": "Oruga UI",
+      "url": "https://oruga.io/documentation/"
+    },
+
+    "25": {
+      "name": "Materialize",
+      "url": "https://materializecss.com/"
+    },
+
+    "26": {
+      "name": "Bootstrap",
+      "url": "https://getbootstrap.com/docs/5.1/getting-started/introduction/"
+    },
+
+    "27": {
+      "name": "Bulma",
+      "url": "https://bulma.io/documentation/"
+    },
+
+    "28": {
+      "name": "Human Interface Design",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/"
+    },
+
+    "29": {
+      "name": "Arch Linux Wiki",
+      "url": "https://wiki.archlinux.org/"
+    },
+
+    "30": {
+      "name": "Fedora",
+      "url": "https://getfedora.org/"
+    }
+  },
+
+  "job": {
+    "0": {
+      "name": "Github",
+      "url": "https://github.com/windwalk-bushido?tab=repositories"
+    },
+
+    "1": {
+      "name": "Netlify",
+      "url": "https://www.netlify.com/"
+    },
+
+    "2": {
+      "name": "Render",
+      "url": "https://render.com/"
+    },
+
+    "3": {
+      "name": "Heroku",
+      "url": "https://dashboard.heroku.com/apps"
+    },
+
+    "4": {
+      "name": "Surge",
+      "url": "https://surge.sh/"
+    },
+
+    "5": {
+      "name": "Python Anywhere",
+      "url": "https://www.pythonanywhere.com/"
+    },
+
+    "6": {
+      "name": "Proton Mail",
+      "url": "https://mail.protonmail.com/inbox?welcome=true"
+    },
+
+    "7": {
+      "name": "Google Mail",
+      "url": "https://mail.google.com/mail/u/0/#inbox"
+    },
+
+    "8": {
+      "name": "Kupujem Prodajem",
+      "url": "https://www.kupujemprodajem.com/"
+    },
+
+    "9": {
+      "name": "Kupindo",
+      "url": "https://www.kupindo.com/"
+    },
+
+    "10": {
+      "name": "Limundo",
+      "url": "https://www.limundo.com/"
+    },
+
+    "11": {
+      "name": "Lichess",
+      "url": "https://lichess.org/"
+    },
+
+    "12": {
+      "name": "Steam",
+      "url": "https://store.steampowered.com/"
+    },
+
+    "13": {
+      "name": "System Requirements Lab",
+      "url": "https://www.systemrequirementslab.com"
+    },
+
+    "14": {
+      "name": "TechPowerUp",
+      "url": "https://www.techpowerup.com/"
+    },
+
+    "15": {
+      "name": "Ark Intel",
+      "url": "https://ark.intel.com/content/www/us/en/ark.html"
+    },
+
+    "16": {
+      "name": "Levi9 Jobs",
+      "url": "https://jobs.rs.levi9.com/connect/dashboard"
+    },
+
+    "17": {
+      "name": "HelloWorld",
+      "url": "https://www.helloworld.rs/"
+    },
+
+    "18": {
+      "name": "Poslovi Infostud",
+      "url": "https://poslovi.infostud.com/"
+    },
+
+    "19": {
+      "name": "StartIT",
+      "url": "https://startit.rs/"
+    },
+
+    "20": {
+      "name": "Joberty",
+      "url": "https://www.joberty.rs/"
+    },
+
+    "21": {
+      "name": "Ngrok",
+      "url": "https://ngrok.com/"
+    },
+
+    "22": {
+      "name": "Localhost - Vite + Vue",
+      "url": "http://localhost:3000"
+    },
+
+    "23": {
+      "name": "Localhost - Old Vue",
+      "url": "http://localhost:8080"
+    },
+
+    "24": {
+      "name": "Localhost - Flask",
+      "url": "http://localhost:5000"
+    },
+
+    "25": {
+      "name": "Localhost - Strapi",
+      "url": "http://localhost:1337"
+    },
+
+    "26": {
+      "name": "Localhost - Wordpress",
+      "url": "http://localhost:8000"
+    },
+
+    "27": {
+      "name": "Localhost - Cockpit",
+      "url": "http://localhost:9090"
+    }
+  },
+
+  "useful": {
+    "0": {
+      "name": "DuckDuckGo",
+      "url": "https://duckduckgo.com/"
+    },
+
+    "1": {
+      "name": "Google",
+      "url": "https://www.google.com/"
+    },
+
+    "2": {
+      "name": "Searx",
+      "url": "https://searx.tiekoetter.com/"
+    },
+
+    "3": {
+      "name": "Ecosia",
+      "url": "https://www.ecosia.org/"
+    },
+
+    "4": {
+      "name": "Swisscows",
+      "url": "https://swisscows.com/?culture=en"
+    },
+
+    "5": {
+      "name": "The Pirate Bay",
+      "url": "https://thepiratebay.org/index.html"
+    },
+
+    "6": {
+      "name": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Main_Page"
+    },
+
+    "7": {
+      "name": "Library Genesis",
+      "url": "https://libgen.rs/"
+    },
+
+    "8": {
+      "name": "Based Cooking",
+      "url": "https://based.cooking/"
+    },
+
+    "9": {
+      "name": "Svetosavlje",
+      "url": "https://svetosavlje.org/"
+    },
+
+    "10": {
+      "name": "Google Drive",
+      "url": "https://drive.google.com/drive/my-drive"
+    },
+
+    "11": {
+      "name": "Mega Drive",
+      "url": "https://mega.nz/fm/transfers"
+    },
+
+    "12": {
+      "name": "Filter Music",
+      "url": "https://filtermusic.net/"
+    },
+
+    "13": {
+      "name": "Deezer",
+      "url": "https://www.deezer.com/us/"
+    },
+
+    "14": {
+      "name": "Sort Strings",
+      "url": "https://onlinestringtools.com/sort-strings"
+    },
+
+    "15": {
+      "name": "Compare Strings",
+      "url": "https://text-compare.com/"
+    },
+
+    "16": {
+      "name": "Compress PDF",
+      "url": "https://smallpdf.com/compress-pdf"
+    },
+
+    "17": {
+      "name": "AppSmith",
+      "url": "https://www.appsmith.com/"
+    },
+
+    "18": {
+      "name": "MilkyTracker",
+      "url": "https://milkytracker.org/docs/MilkyTracker.html"
+    }
+  },
+
+  "social": {
+    "0": {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/legioxequestris"
+    },
+
+    "1": {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/windwalk.ext4/"
+    },
+
+    "2": {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/feed/subscriptions"
+    },
+
+    "3": {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/"
+    },
+
+    "4": {
+      "name": "Mastodon",
+      "url": "https://fosstodon.org/web/timelines/home"
+    },
+
+    "5": {
+      "name": "Twitch",
+      "url": "https://www.twitch.tv/"
+    },
+
+    "6": {
+      "name": "Wired",
+      "url": "https://www.wired.com/"
+    },
+
+    "7": {
+      "name": "Morning Brew",
+      "url": "https://www.morningbrew.com/daily"
+    },
+
+    "8": {
+      "name": "IMDB",
+      "url": "https://www.imdb.com/"
+    },
+
+    "9": {
+      "name": "Vucibatina",
+      "url": "https://vucibatina.com/"
+    },
+
+    "10": {
+      "name": "My Academy",
+      "url": "https://vpsle.edu.rs/"
+    },
+
+    "11": {
+      "name": "Academy's eClasses",
+      "url": "https://lms.vpsle.edu.rs/"
+    },
+
+    "12": {
+      "name": "Academy's Finances",
+      "url": "http://portal.vpsle.fakultis.com/authentication/login"
+    },
+
+    "13": {
+      "name": "Google Translate",
+      "url": "https://translate.google.rs/?hl=en"
+    },
+
+    "14": {
+      "name": "Google Meet",
+      "url": "https://meet.google.com/"
+    },
+
+    "15": {
+      "name": "Google Maps",
+      "url": "https://www.google.rs/maps/"
+    }
+  }
+}
