@@ -210,6 +210,7 @@ html {
         text-decoration: none;
         transition: all 150ms ease-out;
         margin-bottom: 1rem;
+        text-align: center;
         font-size: 1.25rem;
         color: $white;
         background-color: $dark-main;
@@ -217,8 +218,8 @@ html {
 
       .links:hover {
         color: $black;
-        background: rgb(47, 156, 149);
-        background: linear-gradient(315deg, rgba(47, 156, 149, 1) 0%, rgba(64, 201, 162, 1) 50%, rgba(163, 247, 181, 1) 100%);
+        background: rgb(64, 201, 162);
+        background: linear-gradient(315deg, rgba(64, 201, 162, 1) 0%, rgba(114, 224, 172, 1) 50%, rgba(163, 247, 181, 1) 100%);
         transition: all 150ms ease-out;
       }
 

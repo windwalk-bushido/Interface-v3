@@ -320,73 +320,73 @@
     },
 
     "7": {
+      "name": "LeetCode",
+      "url": "https://leetcode.com/"
+    },
+
+    "8": {
       "name": "Learn X in Y minutes",
       "url": "https://learnxinyminutes.com/docs/javascript/"
     },
 
-    "8": {
+    "9": {
       "name": "30 Seconds of Code",
       "url": "https://www.30secondsofcode.org"
     },
 
-    "9": {
+    "10": {
       "name": "W3C Web Accessibility",
       "url": "https://www.w3.org/WAI/fundamentals/accessibility-intro/"
     },
 
-    "10": {
+    "11": {
       "name": "HTML5 UP!2",
       "url": "https://html5up.net/"
     },
 
-    "11": {
+    "12": {
       "name": "Semantic HTML",
       "url": "https://www.w3schools.com/html/html5_semantic_elements.asp"
     },
 
-    "12": {
+    "13": {
       "name": "TypeScript Cheat Sheet",
       "url": "https://www.typescriptlang.org/cheatsheets"
     },
 
-    "13": {
+    "14": {
       "name": "JavaScript Cheat Sheet",
       "url": "https://overapi.com/javascript"
     },
 
-    "14": {
+    "15": {
       "name": "Vue 3 Docs",
       "url": "https://vuejs.org/guide/introduction.html"
     },
 
-    "15": {
+    "16": {
       "name": "Vue Router",
       "url": "https://router.vuejs.org/guide/"
     },
 
-    "16": {
+    "17": {
       "name": "Vue Pinia",
       "url": "https://pinia.vuejs.org/"
     },
 
-    "17": {
+    "18": {
       "name": "Vite",
       "url": "https://vitejs.dev/guide/"
     },
 
-    "18": {
+    "19": {
       "name": "NPM",
       "url": "https://www.npmjs.com/"
     },
 
-    "19": {
+    "20": {
       "name": "CSS Tricks",
       "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background"
-    },
-
-    "20": {
-      "name": "TailwindCSS",
-      "url": "https://tailwindcss.com/docs/installation"
     },
 
     "21": {
@@ -395,46 +395,56 @@
     },
 
     "22": {
+      "name": "TailwindCSS",
+      "url": "https://tailwindcss.com/docs/installation"
+    },
+
+    "23": {
+      "name": "Ionic UI",
+      "url": "https://ionicframework.com/vue"
+    },
+
+    "24": {
       "name": "Daisy UI",
       "url": "https://daisyui.com/components/"
     },
 
-    "23": {
+    "25": {
       "name": "Vuetify",
       "url": "https://vuetifyjs.com/en/getting-started/installation/"
     },
 
-    "24": {
+    "26": {
       "name": "Oruga UI",
       "url": "https://oruga.io/documentation/"
     },
 
-    "25": {
+    "27": {
       "name": "Materialize",
       "url": "https://materializecss.com/"
     },
 
-    "26": {
+    "28": {
       "name": "Bootstrap",
       "url": "https://getbootstrap.com/docs/5.1/getting-started/introduction/"
     },
 
-    "27": {
+    "29": {
       "name": "Bulma",
       "url": "https://bulma.io/documentation/"
     },
 
-    "28": {
+    "30": {
       "name": "Human Interface Design",
       "url": "https://developer.apple.com/design/human-interface-guidelines/"
     },
 
-    "29": {
+    "31": {
       "name": "Arch Linux Wiki",
       "url": "https://wiki.archlinux.org/"
     },
 
-    "30": {
+    "32": {
       "name": "Fedora",
       "url": "https://getfedora.org/"
     }
@@ -472,111 +482,61 @@
     },
 
     "6": {
-      "name": "Proton Mail",
-      "url": "https://mail.protonmail.com/inbox?welcome=true"
-    },
-
-    "7": {
-      "name": "Google Mail",
-      "url": "https://mail.google.com/mail/u/0/#inbox"
-    },
-
-    "8": {
-      "name": "Kupujem Prodajem",
-      "url": "https://www.kupujemprodajem.com/"
-    },
-
-    "9": {
-      "name": "Kupindo",
-      "url": "https://www.kupindo.com/"
-    },
-
-    "10": {
-      "name": "Limundo",
-      "url": "https://www.limundo.com/"
-    },
-
-    "11": {
-      "name": "Lichess",
-      "url": "https://lichess.org/"
-    },
-
-    "12": {
-      "name": "Steam",
-      "url": "https://store.steampowered.com/"
-    },
-
-    "13": {
-      "name": "System Requirements Lab",
-      "url": "https://www.systemrequirementslab.com"
-    },
-
-    "14": {
-      "name": "TechPowerUp",
-      "url": "https://www.techpowerup.com/"
-    },
-
-    "15": {
-      "name": "Ark Intel",
-      "url": "https://ark.intel.com/content/www/us/en/ark.html"
-    },
-
-    "16": {
       "name": "Levi9 Jobs",
       "url": "https://jobs.rs.levi9.com/connect/dashboard"
     },
 
-    "17": {
-      "name": "HelloWorld",
+    "7": {
+      "name": "HelloWorld.rs",
       "url": "https://www.helloworld.rs/"
     },
 
-    "18": {
+    "8": {
       "name": "Poslovi Infostud",
       "url": "https://poslovi.infostud.com/"
     },
 
-    "19": {
+    "9": {
       "name": "StartIT",
       "url": "https://startit.rs/"
     },
 
-    "20": {
+    "10": {
       "name": "Joberty",
       "url": "https://www.joberty.rs/"
     },
 
-    "21": {
+    "11": {
       "name": "Ngrok",
       "url": "https://ngrok.com/"
     },
 
-    "22": {
+    "12": {
       "name": "Localhost - Vite + Vue",
       "url": "http://localhost:3000"
     },
 
-    "23": {
+    "13": {
       "name": "Localhost - Old Vue",
       "url": "http://localhost:8080"
     },
 
-    "24": {
+    "14": {
       "name": "Localhost - Flask",
       "url": "http://localhost:5000"
     },
 
-    "25": {
+    "15": {
       "name": "Localhost - Strapi",
       "url": "http://localhost:1337"
     },
 
-    "26": {
+    "16": {
       "name": "Localhost - Wordpress",
       "url": "http://localhost:8000"
     },
 
-    "27": {
+    "17": {
       "name": "Localhost - Cockpit",
       "url": "http://localhost:9090"
     }
@@ -721,41 +681,91 @@
     },
 
     "8": {
+      "name": "Proton Mail",
+      "url": "https://mail.protonmail.com/inbox?welcome=true"
+    },
+
+    "9": {
+      "name": "Google Mail",
+      "url": "https://mail.google.com/mail/u/0/#inbox"
+    },
+
+    "10": {
+      "name": "Kupujem Prodajem",
+      "url": "https://www.kupujemprodajem.com/"
+    },
+
+    "11": {
+      "name": "Kupindo",
+      "url": "https://www.kupindo.com/"
+    },
+
+    "12": {
+      "name": "Limundo",
+      "url": "https://www.limundo.com/"
+    },
+
+    "13": {
+      "name": "Lichess",
+      "url": "https://lichess.org/"
+    },
+
+    "14": {
+      "name": "Steam",
+      "url": "https://store.steampowered.com/"
+    },
+
+    "15": {
+      "name": "System Requirements Lab",
+      "url": "https://www.systemrequirementslab.com"
+    },
+
+    "16": {
+      "name": "TechPowerUp",
+      "url": "https://www.techpowerup.com/"
+    },
+
+    "17": {
+      "name": "Ark Intel",
+      "url": "https://ark.intel.com/content/www/us/en/ark.html"
+    },
+
+    "18": {
       "name": "IMDB",
       "url": "https://www.imdb.com/"
     },
 
-    "9": {
+    "19": {
       "name": "Vucibatina",
       "url": "https://vucibatina.com/"
     },
 
-    "10": {
+    "20": {
       "name": "My Academy",
       "url": "https://vpsle.edu.rs/"
     },
 
-    "11": {
+    "21": {
       "name": "Academy's eClasses",
       "url": "https://lms.vpsle.edu.rs/"
     },
 
-    "12": {
+    "22": {
       "name": "Academy's Finances",
       "url": "http://portal.vpsle.fakultis.com/authentication/login"
     },
 
-    "13": {
+    "23": {
       "name": "Google Translate",
       "url": "https://translate.google.rs/?hl=en"
     },
 
-    "14": {
+    "24": {
       "name": "Google Meet",
       "url": "https://meet.google.com/"
     },
 
-    "15": {
+    "25": {
       "name": "Google Maps",
       "url": "https://www.google.rs/maps/"
     }
