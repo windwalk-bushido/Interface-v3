@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Request
+from fastapi import FastAPI, Request, status
 from fastapi.responses import HTMLResponse, FileResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
@@ -55,7 +55,7 @@ social = []
 ReadData()
 
 
-@app.get("/", response_class=HTMLResponse, status_code=200)
+@app.get("/", response_class=HTMLResponse, status_code=status.HTTP_200_OK)
 async def index(request: Request):
   return templates.TemplateResponse(
     "index.html",
@@ -68,7 +68,7 @@ async def index(request: Request):
       "social": social}
   )
 
-@app.get('/{file}', response_class=FileResponse, status_code=200)
+@app.get('/{file}', response_class=FileResponse, status_code=status.HTTP_200_OK)
 async def serve_static(file: str):
   if file == "robots.txt" or file == "humans.txt":
     path = "static/global/" + file
@@ -81,9 +81,3 @@ async def serve_static(file: str):
 async def raise_404(request: Request):
   return templates.TemplateResponse('404.html', {"request": request})
 """
-
-
-
-
-if __name__ == '__main__':
-  uvicorn.run('app:app')
