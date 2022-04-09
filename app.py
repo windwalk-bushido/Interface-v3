@@ -1,51 +1,89 @@
-# IMPORTS
-from flask import Flask, render_template, request, json, send_from_directory
-import gunicorn
-
-# CONFIG
-app = Flask(__name__, static_url_path="", static_folder="static/", template_folder="templates/")
-
+from fastapi import FastAPI, Request
+from fastapi.responses import HTMLResponse, FileResponse, RedirectResponse
+from fastapi.staticfiles import StaticFiles
+from fastapi.templating import Jinja2Templates
+import uvicorn
 
 
-
-# APP
-db_load = open('data.json')
-db_prep = json.load(db_load)
-db_load.close()
-
-frontend_array = db_prep["frontend"]
-backend_array = db_prep["backend"]
-documentation_array = db_prep["documentation"]
-job_array = db_prep["job"]
-useful_array = db_prep["useful"]
-social_array = db_prep["social"]
-
-# MAIN ROUTE
-@app.route("/")
-def index():
-  return render_template("index.html", 
-  frontend_array=frontend_array, 
-  backend_array=backend_array, 
-  documentation_array=documentation_array, 
-  job_array=job_array,
-  useful_array=useful_array,
-  social_array=social_array), 200
-
-
-# ADITIONAL ROUTES
-# 404
-@app.errorhandler(404)
-def page_not_found(error):
-  return render_template('404.html'), 404
-
-# robots.txt & humans.txt
-@app.route('/robots.txt')
-@app.route('/humans.txt')
-def static_from_root():
-  return send_from_directory("static/global/", request.path[1:])
+app = FastAPI()
+app.mount("/static", StaticFiles(directory="static"), name="static")
+templates = Jinja2Templates(directory="templates")
 
 
 
 
-# INIT
-if __name__ == "__main__": app.run()
+class Website():
+  name: str
+  url: str
+
+  def __init__(self, name, url):
+    self.name = name
+    self.url = url
+
+
+def ReadDataFromFile(file, array):
+  file = open(file, "rt")
+  lines = file.readlines()
+  for i in range(0, len(lines), 3):
+    website = Website(lines[i].strip("\n"), lines[i + 1].strip("\n"))
+    array.append(website)
+  file.close()
+
+def ReadData():
+  for i in range(0, 6):
+    if(i == 0):
+      ReadDataFromFile("data/frontend.txt", frontend)
+    if(i == 1):
+      ReadDataFromFile("data/documentation.txt", documentation)
+    if(i == 2):
+      ReadDataFromFile("data/backend.txt", backend)
+    if(i == 3):
+      ReadDataFromFile("data/job.txt", job)
+    if(i == 4):
+      ReadDataFromFile("data/useful.txt", useful)
+    if(i == 5):
+      ReadDataFromFile("data/social.txt", social)
+
+
+frontend = []
+documentation = []
+backend = []
+job = []
+useful = []
+social = []
+
+ReadData()
+
+
+@app.get("/", response_class=HTMLResponse, status_code=200)
+async def index(request: Request):
+  return templates.TemplateResponse(
+    "index.html",
+      {"request": request,
+      "frontend": frontend,
+      "documentation": documentation,
+      "backend": backend,
+      "job": job,
+      "useful": useful,
+      "social": social}
+  )
+
+@app.get('/{file}', response_class=FileResponse, status_code=200)
+async def serve_static(file: str):
+  if file == "robots.txt" or file == "humans.txt":
+    path = "static/global/" + file
+    return FileResponse(path=path)
+  else:
+    return RedirectResponse("http://localhost:8000/") # Put real URL here
+
+""" Not working... every bad request will redirect user to index page.
+@app.get("/404", response_class=HTMLResponse, status_code=404)
+async def raise_404(request: Request):
+  return templates.TemplateResponse('404.html', {"request": request})
+"""
+
+
+
+
+if __name__ == '__main__':
+  uvicorn.run('app:app', port=8000)

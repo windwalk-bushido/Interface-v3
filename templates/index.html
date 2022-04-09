@@ -6,7 +6,7 @@
       <button onclick="ChangeMode()" aria-label="Change website to dark or light mode">
         <i class="fa-solid fa-sun" id="btn-icon"></i>
       </button>
-      <a href="https://www.milijan-mosic.surge.sh/">My Website</a>
+      <a href="https://milijan-mosic.vercel.app/">My Website</a>
     </div>
 
     <div class="title">
@@ -17,15 +17,15 @@
   <div class="block">
     <div class="array">
       <h3 class="heading">Frontend</h3>
-      {% for website in frontend_array %}
-      <a class="links" href="{{ frontend_array[website].url }}">{{ frontend_array[website].name }}</a>
+      {% for site in frontend %}
+      <a class="links" href="{{ site.url }}">{{ site.name }}</a>
       {% endfor %}
     </div>
 
     <div class="array">
       <h3 class="heading">Job</h3>
-      {% for website in job_array %}
-      <a class="links" href="{{ job_array[website].url }}">{{ job_array[website].name }}</a>
+      {% for site in job %}
+      <a class="links" href="{{ site.url }}">{{ site.name }}</a>
       {% endfor %}
     </div>
   </div>
@@ -33,15 +33,15 @@
   <div class="block">
     <div class="array">
       <h3 class="heading">Documentation</h3>
-      {% for website in documentation_array %}
-      <a class="links" href="{{ documentation_array[website].url }}">{{ documentation_array[website].name }}</a>
+      {% for site in documentation %}
+      <a class="links" href="{{ site.url }}">{{ site.name }}</a>
       {% endfor %}
     </div>
 
     <div class="array">
       <h3 class="heading">Useful</h3>
-      {% for website in useful_array %}
-      <a class="links" href="{{ useful_array[website].url }}">{{ useful_array[website].name }}</a>
+      {% for site in useful %}
+      <a class="links" href="{{ site.url }}">{{ site.name }}</a>
       {% endfor %}
     </div>
   </div>
@@ -49,15 +49,15 @@
   <div class="block">
     <div class="array">
       <h3 class="heading">Backend</h3>
-      {% for website in backend_array %}
-      <a class="links" href="{{ backend_array[website].url }}">{{ backend_array[website].name }}</a>
+      {% for site in backend %}
+      <a class="links" href="{{ site.url }}">{{ site.name }}</a>
       {% endfor %}
     </div>
 
     <div class="array">
       <h3 class="heading">Social</h3>
-      {% for website in social_array %}
-      <a class="links" href="{{ social_array[website].url }}">{{ social_array[website].name }}</a>
+      {% for site in social %}
+      <a class="links" href="{{ site.url }}">{{ site.name }}</a>
       {% endfor %}
     </div>
   </div>
