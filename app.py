@@ -74,7 +74,7 @@ async def serve_static(file: str):
     path = "static/global/" + file
     return FileResponse(path=path)
   else:
-    return RedirectResponse("http://localhost:8000/") # Put real URL here
+    return RedirectResponse("https://windwalks-interface.herokuapp.com/")
 
 """ Not working... every bad request will redirect user to index page.
 @app.get("/404", response_class=HTMLResponse, status_code=404)
@@ -86,4 +86,4 @@ async def raise_404(request: Request):
 
 
 if __name__ == '__main__':
-  uvicorn.run('app:app', port=8000)
+  uvicorn.run('app:app')
