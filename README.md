@@ -24,7 +24,7 @@ uvicorn app:app --reload
 ##
 
 How to write/edit websites?
-Open up any file in "data" directory and write it like:
+Open up any file in "data" directory and write it in format:
 
 - name
 - URL
