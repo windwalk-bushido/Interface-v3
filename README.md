@@ -18,7 +18,7 @@ python -m venv venv
 . venv/bin/activate
 pip install -r requirements.txt
 pip freeze > requirements.txt
-uvicorn app:app --reload
+flask run
 ```
 
 ##
