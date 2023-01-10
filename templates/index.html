@@ -1,65 +1,65 @@
 {% extends 'base.html' %} {% block title %}{% endblock %} {% block content %}
 <div class="app">
-  <div class="nav">
-    <div class="buttons">
-      <a href="https://github.com/windwalk-bushido/Interface-v3">Repository</a>
-      <button onclick="ChangeMode()" aria-label="Change website to dark or light mode">
-        <i class="fa-solid fa-sun" id="btn-icon"></i>
-      </button>
-      <a href="https://milijan-mosic.vercel.app/">My Website</a>
-    </div>
+	<div class="nav">
+		<div class="buttons">
+			<a href="https://github.com/windwalk-bushido/Interface-v3">Repository</a>
+			<button onclick="ChangeMode()" aria-label="Change website to dark or light mode">
+				<i class="fa-solid fa-sun" id="btn-icon"></i>
+			</button>
+			<a href="https://milijan-mosic.vercel.app/">My Website</a>
+		</div>
 
-    <div class="title">
-      <h1>Web Interface</h1>
-    </div>
-  </div>
+		<div class="title">
+			<h1>Web Interface</h1>
+		</div>
+	</div>
 
-  <div class="block">
-    <div class="array">
-      <h3 class="heading">Frontend</h3>
-      {% for site in frontend %}
-      <a class="links" href="{{ site.url }}">{{ site.name }}</a>
-      {% endfor %}
-    </div>
+	<div class="block">
+		<div class="array">
+			<h3 class="heading">Frontend</h3>
+			{% for site in frontend %}
+			<a class="links" href="{{ site.url }}">{{ site.name }}</a>
+			{% endfor %}
+		</div>
 
-    <div class="array">
-      <h3 class="heading">Job</h3>
-      {% for site in job %}
-      <a class="links" href="{{ site.url }}">{{ site.name }}</a>
-      {% endfor %}
-    </div>
-  </div>
+		<div class="array">
+			<h3 class="heading">Job</h3>
+			{% for site in job %}
+			<a class="links" href="{{ site.url }}">{{ site.name }}</a>
+			{% endfor %}
+		</div>
+	</div>
 
-  <div class="block">
-    <div class="array">
-      <h3 class="heading">Documentation</h3>
-      {% for site in documentation %}
-      <a class="links" href="{{ site.url }}">{{ site.name }}</a>
-      {% endfor %}
-    </div>
+	<div class="block">
+		<div class="array">
+			<h3 class="heading">Documentation</h3>
+			{% for site in documentation %}
+			<a class="links" href="{{ site.url }}">{{ site.name }}</a>
+			{% endfor %}
+		</div>
 
-    <div class="array">
-      <h3 class="heading">Useful</h3>
-      {% for site in useful %}
-      <a class="links" href="{{ site.url }}">{{ site.name }}</a>
-      {% endfor %}
-    </div>
-  </div>
+		<div class="array">
+			<h3 class="heading">Useful</h3>
+			{% for site in useful %}
+			<a class="links" href="{{ site.url }}">{{ site.name }}</a>
+			{% endfor %}
+		</div>
+	</div>
 
-  <div class="block">
-    <div class="array">
-      <h3 class="heading">Backend</h3>
-      {% for site in backend %}
-      <a class="links" href="{{ site.url }}">{{ site.name }}</a>
-      {% endfor %}
-    </div>
+	<div class="block">
+		<div class="array">
+			<h3 class="heading">Backend</h3>
+			{% for site in backend %}
+			<a class="links" href="{{ site.url }}">{{ site.name }}</a>
+			{% endfor %}
+		</div>
 
-    <div class="array">
-      <h3 class="heading">Social</h3>
-      {% for site in social %}
-      <a class="links" href="{{ site.url }}">{{ site.name }}</a>
-      {% endfor %}
-    </div>
-  </div>
+		<div class="array">
+			<h3 class="heading">Social</h3>
+			{% for site in social %}
+			<a class="links" href="{{ site.url }}">{{ site.name }}</a>
+			{% endfor %}
+		</div>
+	</div>
 </div>
 {% endblock %}
