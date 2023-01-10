@@ -31,7 +31,7 @@ https://www.30secondsofcode.org
 W3C Web Accessibility
 https://www.w3.org/WAI/fundamentals/accessibility-intro/
 
-HTML5 UP!2
+HTML5 UP!
 https://html5up.net/
 
 Semantic HTML
